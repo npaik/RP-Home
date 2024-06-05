@@ -13,7 +13,7 @@ export default function FirstBlock() {
   const [showVideo, setShowVideo] = useState(true);
 
   useEffect(() => {
-    const videoDuration = 25000; // 10 seconds
+    const videoDuration = 25000; // 25 seconds
     const timer = setTimeout(() => {
       setShowVideo(false);
     }, videoDuration);
@@ -35,7 +35,7 @@ export default function FirstBlock() {
       ) : (
         <div className="absolute inset-0 z-0 w-full h-full">
           <Image
-            src="/main-bg.png"
+            src="/Main-bg.png"
             alt="Background Image"
             layout="fill"
             objectFit="cover"
