@@ -1,8 +1,8 @@
 "use client";
 
 //? 해야할일
-//~ 글귀 애니메이션 추가
-//~ 비디오 끝나고 이미지로 변경될때 페이드인 효과 추가
+//~ 폰트 변경
+//~ 스페이싱
 
 export default function FirstBlock() {
   return (
