@@ -1,8 +1,15 @@
+import FirstBlock from "../components/about-us/first-block";
+import SecondBlock from "../components/about-us/second-block";
+import ThirdBlock from "../components/about-us/third-block";
+import FourthBlock from "../components/about-us/fourth-block";
+
 export default function AboutUs() {
   return (
-    <main className="text-center mt-10">
-      <h1>회사소개</h1>
-      <p>.</p>
-    </main>
+    <>
+      <FirstBlock />
+      <SecondBlock />
+      <ThirdBlock />
+      <FourthBlock />
+    </>
   );
 }

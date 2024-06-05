@@ -7,6 +7,7 @@ import Image from "next/image";
 //~ 폰트
 //~ 스타일링
 //~ 기존 웹사이트는 카드안 사진을 기점으로 아래부분 배경화면이 검은색으로 되어있음
+//~ 아이콘
 
 export default function FifthBlock() {
   return (

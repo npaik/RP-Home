@@ -4,6 +4,7 @@ import Image from "next/image";
 //? 해야할일
 //~ 스페이싱
 //~ 폰트
+//~ 그래프
 
 export default function SixthBlock() {
   return (

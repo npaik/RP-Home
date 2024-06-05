@@ -4,6 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 import logo from "../../public/RP-light.png";
 
+//? 해야할일
+//~ 아이콘
+
 export default function NavBar({ className }: { className?: string }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 

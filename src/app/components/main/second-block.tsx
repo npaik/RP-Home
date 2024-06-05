@@ -5,6 +5,7 @@ import Link from "next/link";
 //~ 스페이싱
 //~ 폰트
 //~ 스타일링
+//~ 아이콘
 
 export default function SecondBlock() {
   return (
