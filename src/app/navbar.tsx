@@ -20,7 +20,7 @@ export default function NavBar({ className }: { className?: string }) {
       <Link href="/">
         <Image src={logo} alt="Rise Partners Logo" width={150} height={50} />
       </Link>
-      <div className="flex items-center space-x-4">
+      <div className="hidden md:flex items-center space-x-4">
         <Link
           className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
           href="/about-us"
@@ -53,7 +53,7 @@ export default function NavBar({ className }: { className?: string }) {
         </Link>
       </div>
       <div className="flex items-center space-x-4">
-        <div className="flex items-center space-x-2">
+        <div className="hidden md:flex items-center space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -77,7 +77,7 @@ export default function NavBar({ className }: { className?: string }) {
           </div>
         </div>
         <Link
-          className="flex text-lg py-2 px-6 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
+          className="hidden md:flex text-lg py-2 px-6 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
           href="/contact"
         >
           <span>상담신청</span>
@@ -96,7 +96,6 @@ export default function NavBar({ className }: { className?: string }) {
             />
           </svg>
         </Link>
-
         <button onClick={openModal} className="p-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +120,7 @@ export default function NavBar({ className }: { className?: string }) {
             aria-hidden="true"
             onClick={closeModal}
           ></div>
-          <div className="fixed inset-y-0 right-0 w-1/5 bg-white p-6 shadow-lg z-50 overflow-y-auto">
+          <div className="fixed inset-y-0 right-0 w-3/4 md:w-1/5 bg-white p-6 shadow-lg z-50 overflow-y-auto">
             <button
               onClick={closeModal}
               className="absolute top-4 left-4 text-gray-600 hover:text-gray-900"
@@ -141,7 +140,53 @@ export default function NavBar({ className }: { className?: string }) {
                 />
               </svg>
             </button>
-            <div className="flex flex-col items-start space-y-4 mt-10">
+            <div className="flex flex-col items-start space-y-4 mt-10 md:hidden">
+              <Link href="/">
+                <Image
+                  src={logo}
+                  alt="Rise Partners Logo"
+                  width={150}
+                  height={50}
+                />
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/about-us"
+              >
+                회사소개
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/corporation"
+              >
+                법인서비스
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/support"
+              >
+                지원서비스
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/business-consulting"
+              >
+                비지니스컨설팅
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/corporation-consulting"
+              >
+                상장컨설팅
+              </Link>
+              <Link
+                className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
+                href="/contact"
+              >
+                상담신청
+              </Link>
+            </div>
+            <div className="hidden md:flex flex-col items-start space-y-4 mt-10">
               <Image
                 src={logo}
                 alt="Rise Partners Logo"
