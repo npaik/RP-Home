@@ -3,9 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import logo from "../../public/RP-light.png";
-
-//? 해야할일
-//~ 아이콘
+import Dropdown from "./components/dropdown"; // Ensure this path is correct based on your directory structure
 
 export default function NavBar({ className }: { className?: string }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -97,20 +95,7 @@ export default function NavBar({ className }: { className?: string }) {
           </svg>
         </Link>
         <button onClick={openModal} className="p-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6 text-gray-600"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 4h16v16H4z"
-            />
-          </svg>
+          <Dropdown />
         </button>
       </div>
       {modalIsOpen && (

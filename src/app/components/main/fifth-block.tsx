@@ -27,15 +27,16 @@ export default function FifthBlock() {
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-8">
-          <div className="bg-white p-6 rounded shadow-lg text-center">
+          <div className="bg-white p-6 rounded shadow-lg text-center relative">
+            <div className="absolute inset-x-0 bottom-0 h-2/3"></div>
             <Image
               src="/consulting-1.png"
               alt="Consulting Service 1"
               width={300}
               height={200}
-              className="rounded-t-lg"
+              className="rounded-lg"
             />
-            <h3 className="text-xl font-semibold mb-4">법인서비스</h3>
+            <h3 className="text-xl font-semibold mb-4 mt-4">법인서비스</h3>
             <p className="text-gray-600 mb-4">
               법인설립부터, 계좌발급, 세무/회계, 법률 상담까지, 고객이
               캐나다에서 비즈니스를 가장 쉽게 시작할 수 있도록 합니다.
@@ -61,15 +62,16 @@ export default function FifthBlock() {
               </Link>
             </div>
           </div>
-          <div className="bg-white p-6 rounded shadow-lg text-center">
+          <div className="bg-white p-6 rounded shadow-lg text-center relative">
+            <div className="absolute inset-x-0 bottom-0 h-2/3"></div>
             <Image
               src="/consulting-2.png"
               alt="Consulting Service 2"
               width={300}
               height={200}
-              className="rounded-t-lg"
+              className="rounded-lg"
             />
-            <h3 className="text-xl font-semibold mb-4">이민컨설팅</h3>
+            <h3 className="text-xl font-semibold mb-4 mt-4">이민컨설팅</h3>
             <p className="text-gray-600 mb-4">
               비자 발급부터 영주권 취득까지, 캐나다에 정착할 수 있는 다양한
               방법을 제공하고, 가장 최적화 된 솔루션을 찾아 드립니다.
@@ -95,15 +97,16 @@ export default function FifthBlock() {
               </Link>
             </div>
           </div>
-          <div className="bg-white p-6 rounded shadow-lg text-center">
+          <div className="bg-white p-6 rounded shadow-lg text-center relative">
+            <div className="absolute inset-x-0 bottom-0 h-2/3"></div>
             <Image
               src="/consulting-3.png"
               alt="Consulting Service 3"
               width={300}
               height={200}
-              className="rounded-t-lg"
+              className="rounded-lg"
             />
-            <h3 className="text-xl font-semibold mb-4">대행서비스</h3>
+            <h3 className="text-xl font-semibold mb-4 mt-4">대행서비스</h3>
             <p className="text-gray-600 mb-4">
               서비스 오피스를 포함한 다양한 대행 서비스를 제공합니다. 고객의
               비즈니스에 맞는 최적화된 서비스를 함께 만들 수 있습니다.

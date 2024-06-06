@@ -2,10 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function ThirdBlock() {
   return (
     <div className="relative z-10 bg-white py-16">
@@ -19,8 +15,8 @@ export default function ThirdBlock() {
             <span className="text-blue-900">Company Mission</span>
           </h3>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 text-gray-700 leading-relaxed">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between">
+          <div className="md:w-1/2 text-gray-600 leading-relaxed mt-8 md:mt-0">
             <p className="mb-4">
               <span className="font-bold text-xl">RISE PARTNERS</span>는 한국과
               싱가폴, 캐나다를 거점으로 하는 비즈니스 컨설팅회사입니다. 글로벌
@@ -73,7 +69,7 @@ export default function ThirdBlock() {
               </div>
             </Link>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+          <div className="md:w-1/2 flex justify-center">
             <Image
               src="/about-company.png"
               alt="About Company"
