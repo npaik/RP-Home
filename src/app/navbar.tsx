@@ -3,7 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import logo from "../../public/RP-light.png";
-import Dropdown from "./components/dropdown"; // Ensure this path is correct based on your directory structure
+import Dropdown from "./components/dropdown";
+import phoneIcon from "../../public/phoneicon.png";
 
 export default function NavBar({ className }: { className?: string }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -52,20 +53,7 @@ export default function NavBar({ className }: { className?: string }) {
       </div>
       <div className="flex items-center space-x-4">
         <div className="hidden md:flex items-center space-x-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6 text-gray-600"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6.75 6.75a4.5 4.5 0 016.75 6.75M6 9a4.5 4.5 0 100 9 4.5 4.5 0 009 0"
-            />
-          </svg>
+          <Image src={phoneIcon} alt="Phone Icon" width={35} height={35} />
           <div className="text-gray-600">
             Make A Call
             <br />
@@ -126,7 +114,7 @@ export default function NavBar({ className }: { className?: string }) {
               </svg>
             </button>
             <div className="flex flex-col items-start space-y-4 mt-10 md:hidden">
-              <Link href="/">
+              <Link href="/" onClick={closeModal}>
                 <Image
                   src={logo}
                   alt="Rise Partners Logo"
@@ -137,36 +125,42 @@ export default function NavBar({ className }: { className?: string }) {
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/about-us"
+                onClick={closeModal}
               >
                 회사소개
               </Link>
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/corporation"
+                onClick={closeModal}
               >
                 법인서비스
               </Link>
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/support"
+                onClick={closeModal}
               >
                 지원서비스
               </Link>
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/business-consulting"
+                onClick={closeModal}
               >
                 비지니스컨설팅
               </Link>
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/corporation-consulting"
+                onClick={closeModal}
               >
                 상장컨설팅
               </Link>
               <Link
                 className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
                 href="/contact"
+                onClick={closeModal}
               >
                 상담신청
               </Link>

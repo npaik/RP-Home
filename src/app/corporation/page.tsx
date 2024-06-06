@@ -1,8 +1,15 @@
+import FirstBlock from "../components/corporation/first-block";
+import SecondBlock from "../components/corporation/second-block";
+import ThirdBlock from "../components/corporation/third-block";
+import FourthBlock from "../components/corporation/fourth-block";
+
 export default function Corporation() {
   return (
-    <main className="text-center mt-10">
-      <h1>법인서비스</h1>
-      <p>.</p>
-    </main>
+    <>
+      <FirstBlock />
+      <SecondBlock />
+      <ThirdBlock />
+      <FourthBlock />
+    </>
   );
 }
