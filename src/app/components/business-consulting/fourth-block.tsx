@@ -10,7 +10,7 @@ export default function FourthBlock() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div className="flex items-start bg-white p-6 rounded-lg shadow-lg">
             <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
-              ✓
+              &nbsp;✓
             </span>
             <div>
               <h3 className="text-2xl font-semibold mb-2">
@@ -26,7 +26,7 @@ export default function FourthBlock() {
           </div>
           <div className="flex items-start bg-white p-6 rounded-lg shadow-lg">
             <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
-              ✓
+              &nbsp;✓
             </span>
             <div>
               <h3 className="text-2xl font-semibold mb-2">
