@@ -42,24 +42,7 @@ export default function FifthBlock() {
               캐나다에서 비즈니스를 가장 쉽게 시작할 수 있도록 합니다.
             </p>
             <div className="text-center">
-              <Link href="/corporation">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </div>
-              </Link>
+              <Link href="/corporation"></Link>
             </div>
           </div>
           <div className="bg-white p-6 rounded shadow-lg text-center relative">
@@ -76,26 +59,6 @@ export default function FifthBlock() {
               비자 발급부터 영주권 취득까지, 캐나다에 정착할 수 있는 다양한
               방법을 제공하고, 가장 최적화 된 솔루션을 찾아 드립니다.
             </p>
-            <div className="text-center">
-              <Link href="/support">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </div>
-              </Link>
-            </div>
           </div>
           <div className="bg-white p-6 rounded shadow-lg text-center relative">
             <div className="absolute inset-x-0 bottom-0 h-2/3"></div>
@@ -111,26 +74,6 @@ export default function FifthBlock() {
               서비스 오피스를 포함한 다양한 대행 서비스를 제공합니다. 고객의
               비즈니스에 맞는 최적화된 서비스를 함께 만들 수 있습니다.
             </p>
-            <div className="text-center">
-              <Link href="/business-consulting">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </div>
-              </Link>
-            </div>
           </div>
         </div>
       </div>
