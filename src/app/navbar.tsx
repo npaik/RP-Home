@@ -19,7 +19,7 @@ export default function NavBar({ className }: { className?: string }) {
       <Link href="/">
         <Image src={logo} alt="Rise Partners Logo" width={150} height={50} />
       </Link>
-      <div className="hidden md:hidden lg:hidden xl:flex items-center space-x-4">
+      <div className="hidden md:hidden lg:hidden xl:flex items-center space-x-7">
         <Link
           className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
           href="/about-us"

@@ -24,7 +24,7 @@ export default function RootLayout({
           <NavBar />
         </header>
         <main className="relative z-10 min-h-screen">{children}</main>
-        <div className="bg-gray-900 pt-10 relative z-30">
+        <div className="bg-gray-900 pt-10 relative z-10">
           <Footer />
         </div>
       </body>
