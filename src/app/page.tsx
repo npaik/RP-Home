@@ -11,13 +11,11 @@ export default function Home() {
   return (
     <>
       <FirstBlock />
-      <div className="relative z-10">
-        <SecondBlock />
-        <ThirdBlock />
-        <FourthBlock />
-        <FifthBlock />
-        <SixthBlock />
-      </div>
+      <SecondBlock />
+      <ThirdBlock />
+      <FourthBlock />
+      <FifthBlock />
+      <SixthBlock />
     </>
   );
 }
