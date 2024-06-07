@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import FirstBlock from "../components/contact/first-block";
 import SecondBlock from "../components/contact/second-block";
 import ThirdBlock from "../components/contact/third-block";
