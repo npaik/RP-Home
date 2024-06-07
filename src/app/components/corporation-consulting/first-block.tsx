@@ -1,9 +1,5 @@
 "use client";
 
-//? 해야할일
-//~ 폰트 변경
-//~ 스페이싱
-
 export default function FirstBlock() {
   return (
     <div className="bg-gray-100 text-center mt-10">

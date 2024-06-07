@@ -51,10 +51,10 @@ export default function NavBar({ className }: { className?: string }) {
           상장컨설팅
         </Link>
       </div>
-      <div className="flex items-center space-x-4">
-        <div className="hidden md:flex items-center space-x-2">
+      <div className="flex items-center space-x-2">
+        <div className="hidden md:flex items-center space-x-2 px-2">
           <Image src={phoneIcon} alt="Phone Icon" width={35} height={35} />
-          <div className="text-gray-600">
+          <div className="text-gray-600 pl-2">
             Make A Call
             <br />
             <a href="tel:604-609-5390" className="hover:underline">
@@ -63,7 +63,7 @@ export default function NavBar({ className }: { className?: string }) {
           </div>
         </div>
         <Link
-          className="hidden md:flex text-lg py-2 px-6 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
+          className="hidden md:flex text-lg py-2 px-4 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
           href="/contact"
         >
           <span>상담신청</span>
@@ -82,7 +82,7 @@ export default function NavBar({ className }: { className?: string }) {
             />
           </svg>
         </Link>
-        <button onClick={openModal} className="p-2">
+        <button onClick={openModal} className="p-2 pl-10">
           <Dropdown />
         </button>
       </div>

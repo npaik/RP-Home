@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function FirstBlock() {
   return (
     <div className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="order-2 md:order-1 text-gray-600 leading-relaxed mb-8 md:mb-0">
           <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase mb-4">
             About Company
@@ -56,12 +56,6 @@ export default function FirstBlock() {
               height={800}
               className="rounded-lg shadow-lg object-cover w-full h-full"
             />
-          </div>
-        </div>
-        <div className="order-3 hidden md:flex justify-center lg:h-auto lg:mt-20 lg:pt-20">
-          <div className="bg-white text-gray-600 rounded-lg p-6 shadow-lg max-w-xs text-center">
-            <h3 className="text-2xl font-bold mb-2">11+</h3>
-            <p className="text-base">Years Of Experience in Consulting</p>
           </div>
         </div>
       </div>

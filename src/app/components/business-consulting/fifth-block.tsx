@@ -16,13 +16,13 @@ export default function FifthBlock() {
           <h3 className="text-xl font-semibold mb-4">
             Frequency Asked Questions
           </h3>
-          <div className="bg-indigo-900 p-6 shadow-lg">
+          <div className="bg-indigo-900 p-6 shadow-lg rounded-md">
             <p className="text-xl text-white font-medium mb-4">
               Have Any Questions On Your Minds!
             </p>
             <a
               href="/contact"
-              className="bg-orange-500 text-white font-semibold py-2 px-2"
+              className="bg-orange-500 text-white font-semibold py-2 px-2 rounded-md"
             >
               Contact Us →
             </a>
@@ -40,7 +40,7 @@ export default function FifthBlock() {
               </span>
             </button>
             {activeIndex === 0 && (
-              <p className="bg-white py-10 px-10 text-gray-700 mt-2">
+              <p className="bg-white py-4 px-4 text-gray-700 mt-2">
                 캐나다 시장 진출을 위한 첫 단계는 철저한 시장 조사와 전략 수립에
                 초점을 맞추는 것입니다. 이 과정에서는 캐나다 시장의 특성, 타겟
                 소비자의 행동과 선호도, 경쟁 상황을 면밀히 분석하고, 시장 규모

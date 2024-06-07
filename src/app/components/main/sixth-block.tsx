@@ -12,10 +12,10 @@ export default function SixthBlock() {
           <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase">
             Why Choose Us
           </h2>
-          <h3 className="mt-2 text-2xl sm:text-3xl md:text-4xl leading-8 tracking-tight text-white">
+          <h3 className="mt-2 text-2xl lg:text-2xl leading-8 tracking-tight text-white">
             캐나다와 한국에서 다년의 경력을 가진 한국인 컨설팅 역량
           </h3>
-          <p className="mt-4 text-lg sm:text-xl font-bold">
+          <p className="mt-4 text-lg lg:text-xl font-bold">
             최고의 캐나다 진출 컨설팅 회사
           </p>
         </div>

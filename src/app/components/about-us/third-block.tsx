@@ -1,12 +1,6 @@
 "use client";
 import Image from "next/image";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-//~ 박스 스타일링
-//~ 포멧팅
-
 export default function ThirdBlock() {
   return (
     <div className="py-16">

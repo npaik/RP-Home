@@ -3,11 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-//~ 스타일링
-
 export default function SecondBlock() {
   return (
     <div className="relative bg-gray-800 py-16">

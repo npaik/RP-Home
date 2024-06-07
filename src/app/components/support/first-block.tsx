@@ -1,10 +1,6 @@
 "use client";
 import Image from "next/image";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function FirstBlock() {
   return (
     <div className="py-16 bg-white">
@@ -25,7 +21,7 @@ export default function FirstBlock() {
           </div>
         </div>
         <div className="order-2 md:order-2 text-gray-700 leading-relaxed">
-          <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase mb-4">
+          <h2 className="text-2xl text-blue-900 tracking-wide uppercase mb-4">
             Support Services
           </h2>
           <h1 className="text-4xl font-bold mb-6">
@@ -41,36 +37,36 @@ export default function FirstBlock() {
             있습니다. 문화적 차이를 이해하고, 여러분의 캐나다 생활이 편안하고
             성공적이길 바라며, 언제든지 도움을 제공하겠습니다.
           </p>
-          <div className="flex space-x-8">
-            <div className="flex flex-col items-center">
-              {/* <Image
+          <div className="flex space-x-10">
+            <div className="flex flex-col items-center text-center">
+              <Image
                 src="/icon-implement.png"
                 alt="Helping to implement your ideas"
                 width={50}
                 height={50}
-              /> */}
+              />
               <p className="mt-2 text-sm font-medium text-gray-700">
                 Helping to implement your ideas
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              {/* <Image
+            <div className="flex flex-col items-center text-center">
+              <Image
                 src="/icon-meetings.png"
                 alt="Enabling key meetings"
                 width={50}
                 height={50}
-              /> */}
+              />
               <p className="mt-2 text-sm font-medium text-gray-700">
                 Enabling key meetings
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              {/* <Image
+            <div className="flex flex-col items-center text-center">
+              <Image
                 src="/icon-recommendations.png"
                 alt="Providing quality recommendations"
                 width={50}
                 height={50}
-              /> */}
+              />
               <p className="mt-2 text-sm font-medium text-gray-600">
                 Providing quality recommendations
               </p>

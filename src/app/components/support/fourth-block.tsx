@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
+
 //? 해야할일
-//~ 스페이싱
-//~ 폰트
+//~ send email logic
 
 export default function FourthBlock() {
   const [formData, setFormData] = useState({

@@ -1,10 +1,6 @@
 "use client";
 import Image from "next/image";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function FirstBlock() {
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-center bg-gray-100 py-16">

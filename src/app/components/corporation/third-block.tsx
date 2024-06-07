@@ -1,15 +1,11 @@
 "use client";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function ThirdBlock() {
   return (
     <div className="bg-gray-100 py-16 mb-10 mt-10 pb-20 pt-20">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-sm text-gray-500 font-semibold tracking-wider uppercase">
+          <h2 className="text-2xl text-gray-500 tracking-wider uppercase">
             Pricing Package
           </h2>
           <h3 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">

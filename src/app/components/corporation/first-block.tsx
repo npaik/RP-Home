@@ -2,16 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function FirstBlock() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 mt-10 pb-20 pt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="text-left">
-          <h2 className="text-base text-gray-600 font-semibold tracking-wide">
+          <h2 className="text-2xl text-gray-600 tracking-wide mb-2">
             법인서비스
           </h2>
           <h1 className="text-4xl font-bold mb-4">

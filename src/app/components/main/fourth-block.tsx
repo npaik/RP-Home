@@ -1,10 +1,6 @@
 "use client";
 import Link from "next/link";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-
 export default function FourthBlock() {
   return (
     <div className="relative z-10 bg-blue-900 py-8">

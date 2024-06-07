@@ -1,10 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
 
 export default function SecondBlock() {
   return (
@@ -20,7 +15,7 @@ export default function SecondBlock() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-sm text-gray-500 font-semibold tracking-wider uppercase">
+          <h2 className="text-2xl text-gray-500 tracking-wider uppercase">
             Popular Services
           </h2>
           <h3 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -34,7 +29,7 @@ export default function SecondBlock() {
             (service, index) => (
               <div
                 key={index}
-                className="relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300"
+                className="relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900"
               >
                 <h4 className="text-xl font-semibold mb-4">{service}</h4>
               </div>

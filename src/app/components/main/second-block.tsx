@@ -1,12 +1,6 @@
 "use client";
 import Link from "next/link";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-//~ 스타일링
-//~ 아이콘
-
 export default function SecondBlock() {
   return (
     <div className="relative z-10 flex justify-center bg-black py-10">

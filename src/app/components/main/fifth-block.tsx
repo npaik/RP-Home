@@ -2,13 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-//? 해야할일
-//~ 스페이싱
-//~ 폰트
-//~ 스타일링
-//~ 기존 웹사이트는 카드안 사진을 기점으로 아래부분 배경화면이 검은색으로 되어있음
-//~ 아이콘
-
 export default function FifthBlock() {
   return (
     <div className="relative z-10 bg-white py-16">
@@ -21,9 +14,10 @@ export default function FifthBlock() {
           <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase">
             Popular Services
           </h2>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
-            많이 찾는 서비스{" "}
-            <span className="text-blue-900">Consulting Solutions</span>
+          <h3 className="mt-2 text-2xl leading-8 font-bold tracking-tight text-black sm:text-4xl">
+            많이 찾는 서비스
+            <br />
+            <span className="text-blue-900"> Consulting Solutions</span>
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-8">
