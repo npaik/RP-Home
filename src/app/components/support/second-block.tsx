@@ -55,49 +55,28 @@ export default function SecondBlock() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-12">
-          <Image
-            src="/support-2.png"
-            alt="Service Image 1"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
-          <Image
-            src="/support-3.png"
-            alt="Service Image 2"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
-          <Image
-            src="/support-4.png"
-            alt="Service Image 3"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
-          <Image
-            src="/support-5.png"
-            alt="Service Image 4"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
-          <Image
-            src="/support-6.png"
-            alt="Service Image 5"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
-          <Image
-            src="/support-7.png"
-            alt="Service Image 6"
-            width={300}
-            height={200}
-            className="rounded-lg shadow-lg"
-          />
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12 px-20 mx-20">
+          {[
+            { src: "/support-2.png", alt: "배송 대행" },
+            { src: "/support-3.png", alt: "이사 지원 서비스" },
+            { src: "/support-4.png", alt: "비지니스 미팅 대행" },
+            { src: "/support-5.png", alt: "유학 지원 서비스" },
+            { src: "/support-6.png", alt: "공공기관 업무 대행" },
+            { src: "/support-7.png", alt: "은행 업무 대행" },
+          ].map((image, index) => (
+            <div key={index} className="relative group">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={300}
+                height={200}
+                className="rounded-lg shadow-lg"
+              />
+              <div className="absolute inset-0 bg-blue-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-white text-lg">{image.alt}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
