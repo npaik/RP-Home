@@ -18,7 +18,7 @@ export default function FirstBlock() {
           <div className="order-2 md:order-2 text-left text-gray-700 leading-relaxed">
             <div className="mb-8 flex items-start bg-white py-10 px-10">
               <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
-                ✓
+                &nbsp;✓
               </span>
               <div>
                 <h3 className="text-2xl font-semibold mb-2">
@@ -32,7 +32,7 @@ export default function FirstBlock() {
             </div>
             <div className="flex items-start bg-white py-10 px-10">
               <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
-                ✓
+                &nbsp;✓
               </span>
               <div>
                 <h3 className="text-2xl font-semibold mb-2">
