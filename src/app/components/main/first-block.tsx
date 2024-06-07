@@ -25,7 +25,7 @@ export default function FirstBlock() {
   }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen overflow-hidden">
       {showVideo ? (
         <BackgroundVideo />
       ) : (
