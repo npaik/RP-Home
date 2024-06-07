@@ -52,7 +52,7 @@ export default function NavBar({ className }: { className?: string }) {
         </Link>
       </div>
       <div className="flex items-center space-x-2">
-        <div className="flex items-center space-x-2 px-2">
+        <div className="hidden md:flex lg:flex xl:flex items-center space-x-2 px-2">
           <Image src={phoneIcon} alt="Phone Icon" width={35} height={35} />
           <div className="text-gray-600 pl-2">
             Make A Call
