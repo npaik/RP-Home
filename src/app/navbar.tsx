@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
+import { useState } from "react";
 import logo from "../../public/RP-light.png";
 import Dropdown from "./components/dropdown";
 import phoneIcon from "../../public/phoneicon.png";
@@ -15,12 +14,12 @@ export default function NavBar({ className }: { className?: string }) {
 
   return (
     <nav
-      className={`container mx-auto flex items-center justify-between py-2 ${className}`}
+      className={`container mx-auto flex items-center justify-between p-4 ${className}`}
     >
       <Link href="/">
         <Image src={logo} alt="Rise Partners Logo" width={150} height={50} />
       </Link>
-      <div className="hidden lg:flex items-center">
+      <div className="hidden md:hidden lg:hidden xl:flex items-center space-x-4">
         <Link
           className="text-lg inline-block py-2 px-4 hover:font-bold transition duration-300"
           href="/about-us"
@@ -52,7 +51,7 @@ export default function NavBar({ className }: { className?: string }) {
           상장컨설팅
         </Link>
       </div>
-      <div className="hidden lg:flex items-center space-x-2">
+      <div className="flex items-center space-x-2">
         <div className="flex items-center space-x-2 px-2">
           <Image src={phoneIcon} alt="Phone Icon" width={35} height={35} />
           <div className="text-gray-600 pl-2">
@@ -64,14 +63,26 @@ export default function NavBar({ className }: { className?: string }) {
           </div>
         </div>
         <Link
-          className="text-lg py-2 px-5 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
+          className="hidden md:flex text-lg py-2 px-4 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
           href="/contact"
         >
           <span>상담신청</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            className="w-5 h-5"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
         </Link>
-      </div>
-      <div className="lg:hidden flex items-center">
-        <button onClick={openModal} className="p-2">
+        <button onClick={openModal} className="p-2 pl-10">
           <Dropdown />
         </button>
       </div>
@@ -102,7 +113,7 @@ export default function NavBar({ className }: { className?: string }) {
                 />
               </svg>
             </button>
-            <div className="flex flex-col items-start space-y-4 mt-10 md:hidden">
+            <div className="flex md:flex xl:hidden lg:flex flex-col items-start space-y-4 mt-10">
               <Link href="/" onClick={closeModal}>
                 <Image
                   src={logo}
@@ -154,7 +165,7 @@ export default function NavBar({ className }: { className?: string }) {
                 상담신청
               </Link>
             </div>
-            <div className="hidden md:flex flex-col items-start space-y-4 mt-10">
+            <div className="hidden md:hidden lg:hidden xl:flex flex-col items-start space-y-4 mt-10">
               <Image
                 src={logo}
                 alt="Rise Partners Logo"
