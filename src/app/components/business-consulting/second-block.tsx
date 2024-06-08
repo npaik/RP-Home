@@ -11,7 +11,7 @@ export default function SecondBlock() {
           Learn About Our Working Process
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+          <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
             <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
               01
             </div>
@@ -21,7 +21,7 @@ export default function SecondBlock() {
               부서에 전달 공유합니다.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+          <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
             <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
               02
             </div>
@@ -31,7 +31,7 @@ export default function SecondBlock() {
               정보가 있는지 인사이트를 확보합니다.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+          <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
             <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
               03
             </div>
@@ -41,7 +41,7 @@ export default function SecondBlock() {
               정해지면 전략에 맞는 계획을 정하고 검토합니다.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+          <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
             <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
               04
             </div>
