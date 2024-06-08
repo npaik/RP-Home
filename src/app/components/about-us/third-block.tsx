@@ -16,7 +16,7 @@ export default function ThirdBlock() {
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+          <div className="bg-white rounded-lg shadow-lg p-4 text-center border-4 border-transparent hover:border-blue-900 transition-all duration-300">
             <Image
               src="/Abigail-Do.png"
               alt="Abigail Do"
@@ -28,7 +28,7 @@ export default function ThirdBlock() {
             <p className="text-gray-600">Corporate Services Manager</p>
             <p className="text-gray-600">3+ Years Of Experience</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+          <div className="bg-white rounded-lg shadow-lg p-4 text-center border-4 border-transparent hover:border-blue-900 transition-all duration-300">
             <Image
               src="/Chris-Kim.png"
               alt="Chris Kim"
@@ -40,7 +40,7 @@ export default function ThirdBlock() {
             <p className="text-gray-600">Business Consulting Manager</p>
             <p className="text-gray-600">9+ Years Of Experience</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+          <div className="bg-white rounded-lg shadow-lg p-4 text-center border-4 border-transparent hover:border-blue-900 transition-all duration-300">
             <Image
               src="/Sophia-Kim.png"
               alt="Sophia Kim"
@@ -52,7 +52,7 @@ export default function ThirdBlock() {
             <p className="text-gray-600">Secretarial Services Manager</p>
             <p className="text-gray-600">7+ Years Of Experience</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+          <div className="bg-white rounded-lg shadow-lg p-4 text-center border-4 border-transparent hover:border-blue-900 transition-all duration-300">
             <Image
               src="/Ryan-Kim.png"
               alt="Ryan Kim"

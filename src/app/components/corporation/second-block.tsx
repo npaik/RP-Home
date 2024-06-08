@@ -1,5 +1,11 @@
 "use client";
 import Image from "next/image";
+import {
+  FaBuilding,
+  FaUniversity,
+  FaPassport,
+  FaServicestack,
+} from "react-icons/fa";
 
 export default function SecondBlock() {
   return (
@@ -25,16 +31,28 @@ export default function SecondBlock() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {["법인설립", "은행 계좌 개설", "비자 발급", "서비스 오피스"].map(
-            (service, index) => (
-              <div
-                key={index}
-                className="relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900"
-              >
-                <h4 className="text-xl font-semibold mb-4">{service}</h4>
-              </div>
-            )
-          )}
+          <div className="group relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900">
+            <FaBuilding className="text-blue-900 group-hover:text-white w-12 h-12 mx-auto mb-4 transition-colors duration-300" />
+            <h4 className="text-xl font-semibold mb-4 text-center">법인설립</h4>
+          </div>
+          <div className="group relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900">
+            <FaUniversity className="text-blue-900 group-hover:text-white w-12 h-12 mx-auto mb-4 transition-colors duration-300" />
+            <h4 className="text-xl font-semibold mb-4 text-center">
+              은행 계좌 개설
+            </h4>
+          </div>
+          <div className="group relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900">
+            <FaPassport className="text-blue-900 group-hover:text-white w-12 h-12 mx-auto mb-4 transition-colors duration-300" />
+            <h4 className="text-xl font-semibold mb-4 text-center">
+              비자 발급
+            </h4>
+          </div>
+          <div className="group relative p-6 bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg border border-blue-900">
+            <FaServicestack className="text-blue-900 group-hover:text-white w-12 h-12 mx-auto mb-4 transition-colors duration-300" />
+            <h4 className="text-xl font-semibold mb-4 text-center">
+              서비스 오피스
+            </h4>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
@@ -54,10 +72,11 @@ export default function SecondBlock() {
               className="rounded-lg shadow-lg"
             />
           </div>
-          <div className="text-left mt-8 md:mt-0">
-            <h3 className="text-2xl font-extrabold">
-              고객이 비즈니스에만 집중할 수 있도록, 라이즈파트너스가 함께합니다.
+          <div className="text-left mt-8 md:mt-0 mx-20">
+            <h3 className="text-2xl font-bold">
+              고객이 비즈니스에만 집중할 수 있도록,
             </h3>
+            <h3 className="text-2xl font-bold">라이즈파트너스가 함께합니다.</h3>
             <p className="mt-4 text-gray-600">
               우리는 무엇보다 고객을 항상 최우선 합니다. 고객과의 소중한 약속을
               신성하게 여기며, 고객과의 신뢰를 최우선의 가치로 삼습니다. 고객이
