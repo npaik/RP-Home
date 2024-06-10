@@ -1,7 +1,7 @@
 "use server";
 
 import { NextApiRequest, NextApiResponse } from "next";
-import { db } from "@/db";
+import { db } from "@/db"
 import { contact } from "@/db/schema/tables";
 
 export default async function handler(
