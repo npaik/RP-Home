@@ -41,7 +41,9 @@ export default async function handler(
     } catch (error) {
       console.error("Error sending message:", error);
 
+      // @ts-ignore
       if (error.response) {
+        // @ts-ignore
         console.error("Error response body:", error.response.body);
       }
 
