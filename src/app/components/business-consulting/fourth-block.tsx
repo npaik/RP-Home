@@ -9,7 +9,7 @@ export default function FourthBlock() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div className="hoverEffect flex items-start bg-white p-6 rounded-lg shadow-lg">
-            <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
+            <span className="inline-block w-6 h-6 bg-rpBlue text-white rounded-full mr-4 flex-shrink-0">
               &nbsp;✓
             </span>
             <div>
@@ -25,7 +25,7 @@ export default function FourthBlock() {
             </div>
           </div>
           <div className="hoverEffect flex items-start bg-white p-6 rounded-lg shadow-lg">
-            <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
+            <span className="inline-block w-6 h-6 bg-rpBlue text-white rounded-full mr-4 flex-shrink-0">
               &nbsp;✓
             </span>
             <div>

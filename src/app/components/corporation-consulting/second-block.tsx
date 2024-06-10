@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function SecondBlock() {
   return (
-    <div className="relative bg-gray-800 py-24">
+    <div className="relative bg-gray-700 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="text-white leading-relaxed">
-          <h2 className="text-base text-blue-400 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-white font-semibold tracking-wide uppercase">
             상장 컨설팅
           </h2>
           <h1 className="text-4xl font-bold mb-4">

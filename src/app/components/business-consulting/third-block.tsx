@@ -15,9 +15,7 @@ export default function ThirdBlock() {
         <div className="flex justify-center mb-8">
           <button
             className={`px-4 py-2 ${
-              activeTab === "industry"
-                ? "bg-blue-900 text-white"
-                : "bg-gray-300"
+              activeTab === "industry" ? "bg-rpBlue text-white" : "bg-gray-300"
             } rounded-l-lg`}
             onClick={() => setActiveTab("industry")}
           >
@@ -25,7 +23,7 @@ export default function ThirdBlock() {
           </button>
           <button
             className={`px-4 py-2 ${
-              activeTab === "global" ? "bg-blue-900 text-white" : "bg-gray-300"
+              activeTab === "global" ? "bg-rpBlue text-white" : "bg-gray-300"
             } rounded-r-lg`}
             onClick={() => setActiveTab("global")}
           >

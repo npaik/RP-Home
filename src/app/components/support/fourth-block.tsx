@@ -68,7 +68,7 @@ export default function FourthBlock() {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full p-3 border border-rpBlue rounded-md shadow-sm focus:ring-rpBlue focus:border-rpBlue"
                 placeholder="Ronda C. Dimick"
                 required
               />
@@ -86,7 +86,7 @@ export default function FourthBlock() {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full p-3 border border-rpBlue rounded-md shadow-sm focus:ring-rpBlue focus:border-rpBlue"
                 placeholder="contact@risepartners.ca"
                 required
               />
@@ -106,7 +106,7 @@ export default function FourthBlock() {
                 id="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full p-3 border border-rpBlue rounded-md shadow-sm focus:ring-rpBlue focus:border-rpBlue"
                 placeholder="(+1) 604-609-5390"
                 required
               />
@@ -124,7 +124,7 @@ export default function FourthBlock() {
                 id="subject"
                 value={formData.subject}
                 onChange={handleChange}
-                className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full p-3 border border-rpBlue rounded-md shadow-sm focus:ring-rpBlue focus:border-rpBlue"
                 placeholder="I Would Like to"
                 required
               />
@@ -142,7 +142,7 @@ export default function FourthBlock() {
               id="message"
               value={formData.message}
               onChange={handleChange}
-              className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 block w-full p-3 border border-rpBlue rounded-md shadow-sm focus:ring-rpBlue focus:border-rpBlue"
               placeholder="I Would Like to"
               required
             ></textarea>
@@ -150,7 +150,7 @@ export default function FourthBlock() {
           <div className="text-center">
             <button
               type="submit"
-              className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-lg font-medium rounded-md text-white bg-orange-500 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+              className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-lg font-medium rounded-md text-white bg-rpBlue hover:bg-rpOrange focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
             >
               Send Message
             </button>

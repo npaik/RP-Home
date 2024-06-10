@@ -12,43 +12,43 @@ export default function SecondBlock() {
             </h2>
           </div>
           <div>
-            <h2 className="text-gray-600 mb-6 text-left">
+            <h2 className="text-gray-700 mb-6 text-left">
               캐나다에서 대행할 수 있는 가능한 다양한 지원서비스를 제공합니다.
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <ul className="list-none space-y-4 text-left">
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>이민 지원 서비스</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>이사 지원 서비스</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>유학 지원 서비스</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>비자발급, 영주권, 시민권</span>
                 </li>
               </ul>
               <ul className="list-none space-y-4 text-left">
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>은행 업무 대행</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>우편물 관리 대행</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>배송 대행</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-blue-900 rounded-full mr-2"></span>
+                  <span className="inline-block w-4 h-4 bg-rpBlue rounded-full mr-2"></span>
                   <span>비즈니스 미팅 대행</span>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ export default function SecondBlock() {
                 height={200}
                 className="rounded-lg shadow-lg"
               />
-              <div className="absolute inset-0 bg-blue-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-rpBlue bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span className="text-white text-lg">{image.alt}</span>
               </div>
             </div>

@@ -14,14 +14,14 @@ export default function ThirdBlock() {
         <h2 className="text-3xl font-bold mb-8 text-center">
           궁금한 답변을 얻으세요
         </h2>
-        <h3 className="text-xl font-bold text-blue-900 mb-12 text-center">
+        <h3 className="text-xl font-bold text-rpBlue mb-12 text-center">
           Frequently Asked Questions
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(0)}
               >
                 01. 캐나다에서 주거지를 찾는데 도움이 필요해요. 어떤 지원을 해
@@ -31,7 +31,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 0 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다에서의 주거지 찾기를 지원하는 우리 서비스는 고객의
                   필요와 예산에 맞는 주거 옵션을 찾는 것에서 시작합니다. 이는
                   아파트, 콘도, 단독 주택 등 다양한 유형의 주거지에서 선택할 수
@@ -57,7 +57,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(1)}
               >
                 02. 비자 신청 과정이 복잡해 보여요. 어떻게 도와주시나요?
@@ -66,7 +66,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 1 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다 비자 신청 과정은 복잡할 수 있지만, 우리 서비스를 통해
                   이 과정을 간소화하고 명확하게 안내해 드립니다. 우선, 고객의
                   목적과 상황에 맞는 비자 유형을 결정하는 것부터 시작합니다.
@@ -89,7 +89,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(2)}
               >
                 03. 캐나다 이민을 위한 금전적 비용은 얼마나 드나요?
@@ -98,7 +98,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 2 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다 이민을 위한 금전적 비용은 여러 요소에 따라 달라질 수
                   있습니다. 우선, 이민 유형(예: 영주권, 취업 비자, 가족 초청
                   등)에 따라 신청 비용이 다릅니다. 기본적으로, 신청 수수료, 의료
@@ -118,7 +118,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(3)}
               >
                 04. 캐나다의 교육 시스템에 대해 자세히 알고 싶어요.
@@ -127,7 +127,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 3 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다는 세계 최고 수준의 교육환경을 보유하고 있습니다.
                   캐나다의 교육 시스템은 세계적으로 인정받는 높은 표준을 가지고
                   있으며, 다양한 문화적 배경을 가진 학생들에게 폭넓은 교육
@@ -155,7 +155,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(4)}
               >
                 05. 캐나다에서의 의료 서비스 이용은 어떻게 하나요?
@@ -164,7 +164,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 4 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다에서의 의료 서비스는 주(州)별 공공 의료 시스템을 통해
                   제공됩니다. 거주자는 각 주에서 제공하는 건강 보험 계획에
                   등록하여, 필요한 의료 서비스를 받을 수 있습니다. 이는 병원
@@ -188,7 +188,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(5)}
               >
                 06. 캐나다에서의 세금 신고는 어떻게 이루어지나요?
@@ -197,7 +197,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 5 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다에서의 세금 신고는 연간으로 이루어집니다. 모든 거주자는
                   소득에 대해 세금을 신고하고 필요한 경우 세금을 납부해야
                   합니다. 세금 신고는 개인 소득, 고용 상태, 투자 소득 등에 따라
@@ -226,7 +226,7 @@ export default function ThirdBlock() {
           <div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(6)}
               >
                 07. 캐나다에서의 은행 계좌 개설은 어떻게 하나요?
@@ -235,7 +235,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 6 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다 내 다양한 은행 중에서 본인의 필요와 조건에 맞는 은행을
                   선택해야 합니다. 이는 각 은행이 제공하는 서비스, 수수료 구조,
                   지점의 접근성, 온라인 뱅킹 옵션 등을 고려하여 결정할 수
@@ -262,7 +262,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(7)}
               >
                 08. 캐나다의 세금은 한국에 비해 어떻게 다른가요?
@@ -271,7 +271,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 7 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다와 한국의 세금 시스템 비교에서 주목할 만한 차이점 중
                   하나는 상속세와 양도세 부문입니다. 캐나다는 한국과 달리 별도의
                   상속세를 부과하지 않습니다. 대신, 사망 시점에 상속인이 받는
@@ -317,7 +317,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(8)}
               >
                 9. 캐나다의 세금은 한국에 비해 어떻게 다른가요?
@@ -326,7 +326,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 8 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   캐나다와 한국 간의 가장 큰 문화적 차이 중 하나는 다문화주의와
                   개인주의의 정도입니다. 캐나다는 세계적으로 다양한 문화가
                   공존하는 나라로 잘 알려져 있으며, 다양한 문화적 배경을 가진
@@ -354,7 +354,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(9)}
               >
                 10. 대행서비스의 가격은 어떻게 측정하나요?
@@ -363,7 +363,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 9 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   대행서비스의 가격 측정은 서비스의 범위, 복잡성, 그리고 필요한
                   전문성 수준에 따라 결정됩니다. 각각의 서비스 요구 사항이
                   다르기 때문에, 우리는 개별적으로 맞춤형 견적을 제공합니다.
@@ -385,7 +385,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(10)}
               >
                 11. 캐나다의 세금은 한국에 비해 어떻게 다른가요?
@@ -394,7 +394,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 10 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   네, 우리 서비스는 크고 복잡한 일뿐만 아니라, 사소하고 작은
                   일까지 의뢰하실 수 있습니다. 우리는 고객님의 모든 요구 사항을
                   중요하게 생각하며, 작은 일이라도 최선을 다해 지원합니다. 예를
@@ -411,7 +411,7 @@ export default function ThirdBlock() {
             </div>
             <div className="mb-4">
               <button
-                className="w-full text-left text-lg font-semibold text-gray-900 py-2"
+                className="w-full text-left text-lg font-semibold text-gray-700 py-2"
                 onClick={() => toggleQuestion(11)}
               >
                 12. 상담 비용도 발생하나요?
@@ -420,7 +420,7 @@ export default function ThirdBlock() {
                 </span>
               </button>
               {activeIndex === 11 && (
-                <p className="text-gray-600 mt-2 bg-gray-100 p-6">
+                <p className="text-gray-700 mt-2 bg-gray-100 p-6">
                   상담 비용의 발생 여부는 서비스의 종류와 상담의 범위에 따라
                   다를 수 있습니다. 대부분의 경우, 기본적인 초기 상담은 무료로
                   제공되며, 이를 통해 고객의 요구 사항을 파악하고 적합한

@@ -63,7 +63,7 @@ export default function NavBar({ className }: { className?: string }) {
           </div>
         </div>
         <Link
-          className="hidden md:flex text-lg py-2 px-4 bg-blue-900 text-white rounded-md hover:bg-blue-700 transition duration-300 items-center space-x-2"
+          className="hidden md:flex text-lg py-2 px-4 bg-rpBlue text-white rounded-md hover:bg-rpOrange transition duration-300 items-center space-x-2"
           href="/contact"
         >
           <span>상담신청</span>

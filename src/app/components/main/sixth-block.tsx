@@ -9,7 +9,7 @@ export default function SixthBlock() {
     <div className="relative z-10 bg-black py-16">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-white leading-relaxed">
-          <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-rpBlue font-semibold tracking-wide uppercase">
             Why Choose Us
           </h2>
           <h3 className="mt-2 text-2xl lg:text-2xl leading-8 tracking-tight text-white">

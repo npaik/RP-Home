@@ -16,13 +16,13 @@ export default function FifthBlock() {
           <h3 className="text-xl font-semibold mb-4">
             Frequency Asked Questions
           </h3>
-          <div className="bg-indigo-900 p-6 shadow-lg rounded-md">
+          <div className="bg-rpBlue p-6 shadow-lg rounded-md">
             <p className="text-xl text-white font-medium mb-4">
               Have Any Questions On Your Minds!
             </p>
             <a
               href="/contact"
-              className="bg-orange-500 text-white font-semibold py-2 px-2 rounded-md"
+              className="bg-rpOrange text-white font-semibold py-2 px-2 rounded-md"
             >
               Contact Us →
             </a>
@@ -31,7 +31,7 @@ export default function FifthBlock() {
         <div>
           <div className="mb-4">
             <button
-              className="w-full text-left text-xl font-semibold text-gray-900 py-2"
+              className="w-full text-left text-xl font-semibold text-gray-700 py-2"
               onClick={() => toggleQuestion(0)}
             >
               캐나다 시장 진출을 위한 첫 단계는 무엇인가요?
@@ -76,7 +76,7 @@ export default function FifthBlock() {
           </div>
           <div className="mb-4">
             <button
-              className="w-full text-left text-xl font-semibold text-gray-900 py-2"
+              className="w-full text-left text-xl font-semibold text-gray-700 py-2"
               onClick={() => toggleQuestion(1)}
             >
               캐나다에서 비즈니스를 시작하기 위한 법적 요건은 무엇인가요?
@@ -125,7 +125,7 @@ export default function FifthBlock() {
           </div>
           <div className="mb-4">
             <button
-              className="w-full text-left text-xl font-semibold text-gray-900 py-2"
+              className="w-full text-left text-xl font-semibold text-gray-700 py-2"
               onClick={() => toggleQuestion(2)}
             >
               캐나다 시장 진출 시 마주칠 수 있는 가장 큰 도전은 무엇인가요?
@@ -166,7 +166,7 @@ export default function FifthBlock() {
           </div>
           <div className="mb-4">
             <button
-              className="w-full text-left text-xl font-semibold text-gray-900 py-2"
+              className="w-full text-left text-xl font-semibold text-gray-700 py-2"
               onClick={() => toggleQuestion(3)}
             >
               캐나다 시장에서 경쟁력을 갖추기 위한 주요 전략은 무엇인가요?

@@ -7,7 +7,7 @@ export default function FirstBlock() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 mt-10 pb-20 pt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="text-left">
-          <h2 className="text-2xl text-gray-600 tracking-wide mb-2">
+          <h2 className="text-2xl text-gray-700 tracking-wide mb-2">
             법인서비스
           </h2>
           <h1 className="text-4xl font-bold mb-4">
@@ -23,7 +23,7 @@ export default function FirstBlock() {
           <ul className="text-gray-700 mb-8">
             <li className="flex items-center mb-2">
               <svg
-                className="w-5 h-5 text-blue-900 mr-2"
+                className="w-5 h-5 text-rpBlue mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -33,7 +33,7 @@ export default function FirstBlock() {
             </li>
             <li className="flex items-center mb-2">
               <svg
-                className="w-5 h-5 text-blue-900 mr-2"
+                className="w-5 h-5 text-rpBlue mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -43,7 +43,7 @@ export default function FirstBlock() {
             </li>
             <li className="flex items-center mb-2">
               <svg
-                className="w-5 h-5 text-blue-900 mr-2"
+                className="w-5 h-5 text-rpBlue mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -53,7 +53,7 @@ export default function FirstBlock() {
             </li>
             <li className="flex items-center mb-2">
               <svg
-                className="w-5 h-5 text-blue-900 mr-2"
+                className="w-5 h-5 text-rpBlue mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -63,7 +63,7 @@ export default function FirstBlock() {
             </li>
           </ul>
           <Link href="/contact">
-            <div className="mt-4 bg-blue-900 hover:bg-blue-700 text-white py-2 px-6 rounded-md inline-flex items-center space-x-2 cursor-pointer">
+            <div className="mt-4 bg-rpBlue hover:bg-rpOrange text-white py-2 px-6 rounded-md inline-flex items-center space-x-2 cursor-pointer">
               <span>Learn More</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

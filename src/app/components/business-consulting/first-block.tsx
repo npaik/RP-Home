@@ -18,7 +18,7 @@ export default function FirstBlock() {
           </div>
           <div className="order-2 md:order-2 text-left text-gray-700 leading-relaxed">
             <div className="hoverEffect mb-8 flex items-start bg-white py-10 px-10 relative">
-              <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
+              <span className="inline-block w-6 h-6 bg-rpBlue text-white rounded-full mr-4 flex-shrink-0">
                 &nbsp;✓
               </span>
               <div>
@@ -32,7 +32,7 @@ export default function FirstBlock() {
               </div>
             </div>
             <div className="hoverEffect flex items-start bg-white py-10 px-10 relative">
-              <span className="inline-block w-6 h-6 bg-blue-900 text-white rounded-full mr-4 flex-shrink-0">
+              <span className="inline-block w-6 h-6 bg-rpBlue text-white rounded-full mr-4 flex-shrink-0">
                 &nbsp;✓
               </span>
               <div>

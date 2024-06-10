@@ -45,7 +45,7 @@ export default function FirstBlock() {
             currentSection === 0 ? "h-screen" : "h-0 overflow-hidden"
           }`}
         >
-          <p className="text-sm sm:text-sm md:text-lg lg:text-xl bg-opacity-70 bg-blue-900 px-4 py-2 rounded">
+          <p className="text-sm sm:text-sm md:text-lg lg:text-xl bg-opacity-70 bg-prBlue px-4 py-2 rounded">
             라이즈파트너스가 당신과 함께 하겠습니다.
           </p>
           <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold mt-4">
@@ -55,7 +55,7 @@ export default function FirstBlock() {
             Your journey continues into the future.
           </p>
           <Link href="/contact">
-            <div className="mt-4 bg-orange-500 bg-opacity-70 hover:bg-orange-600 hover:bg-opacity-50 text-white py-2 px-6 rounded-md flex items-center space-x-2 cursor-pointer">
+            <div className="mt-4 bg-orange-500 bg-opacity-70 hover:bg-rpOrange hover:bg-opacity-50 text-white py-2 px-6 rounded-md flex items-center space-x-2 cursor-pointer">
               <span className="text-sm sm:text-sm font-bold">Get Started</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ export default function FirstBlock() {
             currentSection === 1 ? "h-screen" : "h-0 overflow-hidden"
           }`}
         >
-          <p className="text-sm sm:text-sm md:text-lg lg:text-xl bg-opacity-70 bg-blue-900 px-4 py-2 rounded">
+          <p className="text-sm sm:text-sm md:text-lg lg:text-xl bg-opacity-70 bg-prBlue px-4 py-2 rounded">
             라이즈파트너스가 당신과 함께 하겠습니다.
           </p>
           <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold mt-4">
@@ -89,7 +89,7 @@ export default function FirstBlock() {
             I support you in your new beginning in Canada.
           </p>
           <Link href="/contact">
-            <div className="mt-4 bg-orange-500 bg-opacity-70 hover:bg-orange-600 hover:bg-opacity-50 text-white py-2 px-6 rounded-md flex items-center space-x-2 cursor-pointer">
+            <div className="mt-4 bg-rpOrange bg-opacity-70 hover:bg-rpOrange hover:bg-opacity-50 text-white py-2 px-6 rounded-md flex items-center space-x-2 cursor-pointer">
               <span className="text-sm sm:text-sm font-bold">Get Started</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

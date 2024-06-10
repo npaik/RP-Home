@@ -18,7 +18,7 @@ export default function SecondBlock() {
           </div>
           <div className="text-center mt-4">
             <Link href="/support">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-rpBlue text-white cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -50,7 +50,7 @@ export default function SecondBlock() {
           </div>
           <div className="text-center mt-4">
             <Link href="/business-consulting">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-rpBlue text-white cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -81,7 +81,7 @@ export default function SecondBlock() {
           </div>
           <div className="text-center mt-4">
             <Link href="/corporation-consulting">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-900 text-white cursor-pointer">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-rpBlue text-white cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

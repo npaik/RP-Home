@@ -4,7 +4,7 @@ export default function SecondBlock() {
   return (
     <div className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase mb-2">
+        <h2 className="text-base text-rpBlue font-semibold tracking-wide uppercase mb-2">
           Working Process
         </h2>
         <h1 className="text-3xl font-bold mb-12">
@@ -12,7 +12,7 @@ export default function SecondBlock() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-            <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-rpBlue text-white rounded-full flex items-center justify-center mb-4">
               01
             </div>
             <h3 className="text-xl font-semibold mb-2">고객요구분석</h3>
@@ -22,7 +22,7 @@ export default function SecondBlock() {
             </p>
           </div>
           <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-            <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-rpBlue text-white rounded-full flex items-center justify-center mb-4">
               02
             </div>
             <h3 className="text-xl font-semibold mb-2">현지상황분석</h3>
@@ -32,7 +32,7 @@ export default function SecondBlock() {
             </p>
           </div>
           <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-            <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-rpBlue text-white rounded-full flex items-center justify-center mb-4">
               03
             </div>
             <h3 className="text-xl font-semibold mb-2">전략 및 계획 수립</h3>
@@ -42,7 +42,7 @@ export default function SecondBlock() {
             </p>
           </div>
           <div className="hoverEffect bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-            <div className="w-12 h-12 bg-blue-900 text-white rounded-full flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-rpBlue text-white rounded-full flex items-center justify-center mb-4">
               04
             </div>
             <h3 className="text-xl font-semibold mb-2">고객에 제공</h3>

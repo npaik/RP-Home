@@ -14,14 +14,14 @@ export default function FirstBlock() {
               height={800}
               className="rounded-lg shadow-lg object-cover"
             />
-            <div className="absolute bottom-4 right-4 bg-blue-900 text-white p-4 rounded-lg shadow-lg">
+            <div className="absolute bottom-4 right-4 bg-rpBlue text-white p-4 rounded-lg shadow-lg">
               <h3 className="text-lg font-bold mb-1">Success Rate</h3>
               <p className="text-2xl font-bold">95%</p>
             </div>
           </div>
         </div>
         <div className="order-2 md:order-2 text-gray-700 leading-relaxed">
-          <h2 className="text-2xl text-blue-900 tracking-wide uppercase mb-4">
+          <h2 className="text-2xl text-rpBlue tracking-wide uppercase mb-4">
             Support Services
           </h2>
           <h1 className="text-4xl font-bold mb-6">
@@ -29,7 +29,7 @@ export default function FirstBlock() {
             <br />
             라이즈파트너스의 지원서비스
           </h1>
-          <p className="mb-6 text-gray-600 leading-loose">
+          <p className="mb-6 text-gray-700 leading-loose">
             라이즈파트너스에서는 캐나다 생활에 필요한 다양한 서비스를
             제공합니다. 비즈니스 뿐만 아니라, 이민, 유학, 여행 상담 등 개인적인
             부분도 도와드립니다. 캐나다에서의 새 출발이든, 교육이나 일상 생활에
@@ -67,7 +67,7 @@ export default function FirstBlock() {
                 width={50}
                 height={50}
               />
-              <p className="mt-2 text-sm font-medium text-gray-600">
+              <p className="mt-2 text-sm font-medium text-gray-700">
                 Providing quality recommendations
               </p>
             </div>

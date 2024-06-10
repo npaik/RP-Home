@@ -5,13 +5,13 @@ export default function FirstBlock() {
   return (
     <div className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-        <div className="order-2 md:order-1 text-gray-600 leading-relaxed mb-8 md:mb-0">
-          <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase mb-4">
+        <div className="order-2 md:order-1 text-gray-700 leading-relaxed mb-8 md:mb-0">
+          <h2 className="text-base text-rpBlue font-semibold tracking-wide uppercase mb-4">
             About Company
           </h2>
           <h1 className="text-4xl">반갑습니다.</h1>
           <h1 className="text-4xl font-bold mb-6">라이즈파트너스입니다.</h1>
-          <p className="mb-6 text-gray-600 leading-loose">
+          <p className="mb-6 text-gray-700 leading-loose">
             안녕하십니까, 꿈과 희망을 품고 캐나다 진출을 꿈꾸시는 모든 분들께
             따뜻한 인사를 전합니다. <br />
             <br />

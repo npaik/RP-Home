@@ -17,7 +17,7 @@ export default function ThirdBlock() {
         <div className="md:w-1/2 mt-8 md:mt-0 px-4">
           <div className="bg-white p-6 rounded-lg shadow-lg mb-8 max-w-2xl mx-auto">
             <p className="text-xl font-semibold mb-4">
-              <span className="inline-block bg-blue-500 rounded-full w-4 h-4 mr-2"></span>
+              <span className="inline-block bg-rpBlue rounded-full w-4 h-4 mr-2"></span>
               우리는 고객의 요구에 귀를 기울입니다.
             </p>
             <p className="text-gray-600">
@@ -27,7 +27,7 @@ export default function ThirdBlock() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
             <p className="text-xl font-semibold mb-4">
-              <span className="inline-block bg-blue-500 rounded-full w-4 h-4 mr-2"></span>
+              <span className="inline-block bg-rpBlue rounded-full w-4 h-4 mr-2"></span>
               고객에 맞는 컨설팅을 제안합니다.
             </p>
             <p className="text-gray-600">

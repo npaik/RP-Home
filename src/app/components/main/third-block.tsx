@@ -7,16 +7,15 @@ export default function ThirdBlock() {
     <div className="relative z-10 bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-base text-blue-900 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-rpBlue font-semibold tracking-wide uppercase">
             About Company
           </h2>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Learn About Our{" "}
-            <span className="text-blue-900">Company Mission</span>
+          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
+            Learn About Our <span className="text-rpBlue">Company Mission</span>
           </h3>
         </div>
         <div className="flex flex-col-reverse md:flex-row items-center justify-between">
-          <div className="md:w-1/2 text-gray-600 leading-relaxed mt-8 md:mt-0">
+          <div className="md:w-1/2 text-gray-700 leading-relaxed mt-8 md:mt-0">
             <p className="mb-4">
               <span className="font-bold text-xl">RISE PARTNERS</span>는 한국과
               싱가폴, 캐나다를 거점으로 하는 비즈니스 컨설팅회사입니다. 글로벌
@@ -50,7 +49,7 @@ export default function ThirdBlock() {
               믿을 수 있는 파트너입니다.
             </p>
             <Link href="/about-us">
-              <div className="mt-6 bg-blue-900 hover:bg-blue-700 text-white py-2 px-6 rounded-md inline-flex items-center space-x-2 cursor-pointer">
+              <div className="mt-6 bg-rpBlue hover:bg-rpOrange text-white py-2 px-6 rounded-md inline-flex items-center space-x-2 cursor-pointer">
                 <span>Learn More</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
