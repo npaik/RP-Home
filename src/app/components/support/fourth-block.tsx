@@ -1,9 +1,6 @@
 "use client";
 import { useState } from "react";
 
-//? 해야할일
-//~ send email logic
-
 export default function FourthBlock() {
   const [formData, setFormData] = useState({
     name: "",
@@ -20,10 +17,33 @@ export default function FourthBlock() {
     });
   };
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log(formData);
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ formData }),
+      });
+
+      if (response.ok) {
+        alert("Message sent successfully");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error sending message", error);
+      alert("Failed to send message");
+    }
   };
 
   return (
@@ -87,7 +107,7 @@ export default function FourthBlock() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                placeholder="(+82) 604-609-5390"
+                placeholder="(+1) 604-609-5390"
                 required
               />
             </div>

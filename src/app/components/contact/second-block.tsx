@@ -1,11 +1,62 @@
 "use client";
+import { useState } from "react";
+import {
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaClock,
+} from "react-icons/fa";
 
 export default function SecondBlock() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e: any) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ formData }),
+      });
+
+      if (response.ok) {
+        alert("Message sent successfully");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error sending message", error);
+      alert("Failed to send message");
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div className="flex flex-col md:flex-row justify-between items-start">
         <div className="md:w-1/2 pr-8">
-          <h2 className="text-lg font-semibold text-gray-700 mb-4">
+          <h2 className="text-lg font-semibold text-blue-900 mb-4">
             Contact Us
           </h2>
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
@@ -15,43 +66,23 @@ export default function SecondBlock() {
           </h3>
           <ul className="space-y-6">
             <li className="flex items-center">
-              {/* <Image
-                  src="/location-icon.png"
-                  alt="Location"
-                  width={24}
-                  height={24}
-                /> */}
+              <FaMapMarkerAlt className="text-blue-900 w-6 h-6" />
               <span className="ml-3 text-gray-600">
                 5th Floor, 409 Granville St, Vancouver BC V6C 1T2
               </span>
             </li>
             <li className="flex items-center">
-              {/* <Image
-                  src="/email-icon.png"
-                  alt="Email Address"
-                  width={24}
-                  height={24}
-                /> */}
+              <FaEnvelope className="text-blue-900 w-6 h-6" />
               <span className="ml-3 text-gray-600">
                 contact@risepartners.ca
               </span>
             </li>
             <li className="flex items-center">
-              {/* <Image
-                  src="/phone-icon.png"
-                  alt="Make A Call"
-                  width={24}
-                  height={24}
-                /> */}
+              <FaPhoneAlt className="text-blue-900 w-6 h-6" />
               <span className="ml-3 text-gray-600">604-609-5390</span>
             </li>
             <li className="flex items-center">
-              {/* <Image
-                  src="/hours-icon.png"
-                  alt="Working Hour"
-                  width={24}
-                  height={24}
-                /> */}
+              <FaClock className="text-blue-900 w-6 h-6" />
               <span className="ml-3 text-gray-600">
                 Monday - Friday, 10am-5pm
               </span>
@@ -59,7 +90,7 @@ export default function SecondBlock() {
           </ul>
         </div>
         <div className="md:w-1/2 bg-gray-100 p-8 rounded-lg shadow-md mt-8 md:mt-0">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-6">
               <label
                 htmlFor="name"
@@ -71,6 +102,8 @@ export default function SecondBlock() {
                 type="text"
                 id="name"
                 name="name"
+                value={formData.name}
+                onChange={handleChange}
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:shadow-outline"
                 placeholder="Your full name"
               />
@@ -86,8 +119,27 @@ export default function SecondBlock() {
                 type="email"
                 id="email"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:shadow-outline"
                 placeholder="Your email address"
+              />
+            </div>
+            <div className="mb-6">
+              <label
+                htmlFor="phone"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Phone No
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:shadow-outline"
+                placeholder="Your phone number"
               />
             </div>
             <div className="mb-6">
@@ -101,6 +153,8 @@ export default function SecondBlock() {
                 type="text"
                 id="subject"
                 name="subject"
+                value={formData.subject}
+                onChange={handleChange}
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:shadow-outline"
                 placeholder="Subject"
               />
@@ -115,6 +169,8 @@ export default function SecondBlock() {
               <textarea
                 id="message"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 rows={4}
                 className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:shadow-outline"
                 placeholder="Your message"
