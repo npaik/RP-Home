@@ -27,7 +27,7 @@ export default async function handler(
       });
 
       const msg = {
-        to: "contact@risepartners.ca",
+        to: "nakhyunpaik@gmail.com",
         from: "tony.paik@risepartners.ca",
         subject: `New Contact Form Submission: ${subject}`,
         text: `You have received a new message from ${name} (${email}, ${phone}):\n\n${message}`,
