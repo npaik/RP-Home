@@ -71,13 +71,18 @@ export default function SecondBlock() {
             </li>
             <li className="flex items-center">
               <FaEnvelope className="text-rpBlue w-6 h-6" />
-              <span className="ml-3 text-gray-700">
+              <a
+                href="mailto:contact@risepartners.ca"
+                className="ml-3 text-gray-700"
+              >
                 contact@risepartners.ca
-              </span>
+              </a>
             </li>
             <li className="flex items-center">
               <FaPhoneAlt className="text-rpBlue w-6 h-6" />
-              <span className="ml-3 text-gray-700">604-609-5390</span>
+              <a href="tel:+16046095390" className="ml-3 text-gray-700">
+                604-609-5390
+              </a>
             </li>
             <li className="flex items-center">
               <FaClock className="text-rpBlue w-6 h-6" />
