@@ -1,8 +1,14 @@
 "use server";
 
 import { NextApiRequest, NextApiResponse } from "next";
-import { db } from "@/db"
+import { db } from "@/db";
 import { contact } from "@/db/schema/tables";
+import sgMail from "@sendgrid/mail";
+
+if (!process.env.SENDGRID_API_KEY) {
+  throw new Error("Missing SENDGRID_API_KEY");
+}
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async function handler(
   req: NextApiRequest,
@@ -20,10 +26,26 @@ export default async function handler(
         message,
       });
 
+      const msg = {
+        to: "contact@risepartners.ca",
+        from: "tony.paik@risepartners.ca",
+        subject: `New Contact Form Submission: ${subject}`,
+        text: `You have received a new message from ${name} (${email}, ${phone}):\n\n${message}`,
+        html: `<p>You have received a new message from <strong>${name}</strong> (${email}, ${phone}):</p><p>${message}</p>`,
+      };
+
+      await sgMail.send(msg);
+      console.log("Email sent");
+
       res.status(200).json({ message: "Message sent successfully" });
     } catch (error) {
-      console.error("Error saving email", error);
-      res.status(500).json({ error: "Failed to save message" });
+      console.error("Error sending message:", error);
+
+      if (error.response) {
+        console.error("Error response body:", error.response.body);
+      }
+
+      res.status(500).json({ error: "Failed to save message or send email" });
     }
   } else {
     res.setHeader("Allow", ["POST"]);

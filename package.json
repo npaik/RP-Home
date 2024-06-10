@@ -11,17 +11,18 @@
     "db:push": "drizzle-kit push:pg"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1"
   },
   "devDependencies": {
+    "@neondatabase/serverless": "^0.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "dotenv": "16.4.5",
-    "@neondatabase/serverless": "^0.6.0",
     "drizzle-kit": "^0.19.13",
     "drizzle-orm": "^0.28.6",
     "eslint": "^8",
